@@ -10,7 +10,7 @@ alias gca='git commit --amend'
 
 alias gaa='git add .'
 
-alias gcl='git clone'
+alias gpl='git pull'
 
 gc() {
   git commit -m "$1"
@@ -18,4 +18,8 @@ gc() {
 
 ga() {
   git add "$1"
+}
+
+gcl() {
+  git clone "$1"
 }
